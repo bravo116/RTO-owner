@@ -1,0 +1,128 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Register</title>
+
+    <style>
+            body{overflow: hidden;background-color: black;}
+            .homeimg
+			{
+				height:550px;
+			}
+            .footer{
+            text-align: center;padding: 10px;margin-top:30px;
+            background-color: green;
+            font-size: 30px;
+            text-decoration: underline;
+            color: white;
+            }
+            .alpha{margin-left: 900px; }
+            .suri{ border: 2px solid white; margin-top: px;}
+            iframe{width: 850px; height: 550px; margin-top:10px ;}
+
+        </style>
+</head>
+<body>
+    
+<div>
+            <div id="header" style="min-height:100px;">
+                <div id="logo" class="col-lg-2">
+                <img src="images/1.png" class="col-lg-12" style="height:100px; width: 200px;" />
+                </div>
+            
+                <div id="empty" class="col-lg-6" style="color:white;">
+                <h1 >KNOW THE OWNER OF VEHICLE</h1>
+                </div>
+            
+            
+                <div id="menu" class="col-lg-4" style="padding-top:30px;font-size:25px;">
+                <a href="index.php">Home</a> | <a href="register.php">Register</a> | <a href="login.php">Login</a> | <a href="https://morth.nic.in/">About Us</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6" style="color:white">
+            <iframe src="https://btp.gov.in/" ></iframe>
+            </div>
+
+
+
+            <div id="content" class="alpha" style="min-height:550px;">
+				
+				<div class="col-lg-12">
+                    <div class="suri">
+					<form method="post" action="connect.php">
+						<div id="formdiv" style="font-weight:bolder;font-size:20px;padding: 15px;margin-bottom: 30px;">
+							<h1 style="text-align:center;font-weight: bolder; color: white">Registration Form </h1>
+							<div style="color:white">
+								Name :
+								<input type="text" class="form-control" id="name" name="name" required/>
+							</div>
+							<div style="color:white">
+								Your Vehicle No :
+								<input type="text" class="form-control" id="vno" name="vno" required />
+							</div>
+							<div style="color:white">
+								Phone # :
+								<input type="text" class="form-control" id="phone" name="phone" required/>
+							</div>
+                            <div style="color:white">
+								Email :
+								<input type="text" class="form-control" id="email" name="email" required/>
+							</div>
+							
+							<div style="color:white">
+								Password :
+								<input type="password" class="form-control" id="pswd" name="pswd" required />
+							</div>
+                            
+                            
+                            <div style="color:white">
+                                OTP :
+                                <input type="password" class="form-control" id="otp" name="otp"/>
+                            </div >
+							<br>
+							<div class="col-lg-6">
+								<input type="submit" class="col-lg-12 btn btn-primary form-control" id="devil" name="devil" value="Create Account"/>
+							</div>
+							
+							<div class="col-lg-6">
+								<input type="reset" class="col-lg-6 btn btn-danger form-control" />
+							</div>
+						</div>
+						</form>
+                        <form action="alpha.php" method="post">
+                            <div style="color:white">
+								
+								<input type="submit" class="form-control" id="otp" name="otp" value="Get OTP"/>
+							</div>
+                            <form>
+                    </div>
+				</div>
+				
+				
+			</div>
+            <div id="pagefooter" class="footer">
+            ALL RIGHTS RESERVED BY MINISTRY OF ROAD TRANSPORT AND HIGHWAYS
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
